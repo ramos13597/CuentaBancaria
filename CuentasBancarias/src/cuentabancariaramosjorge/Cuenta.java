@@ -165,15 +165,15 @@ public class Cuenta {
      
         
      resultado3 += Integer.parseInt(numCuenta.substring(0,1))*1;   
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*2;  
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*4;   
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*8;   
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*5;   
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*10;   
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*9;   
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*7;   
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*3;   
-     resultado3 += Integer.parseInt(numCuenta.substring(0,1))*6;   
+     resultado3 += Integer.parseInt(numCuenta.substring(1,2))*2;  
+     resultado3 += Integer.parseInt(numCuenta.substring(2,3))*4;   
+     resultado3 += Integer.parseInt(numCuenta.substring(3,4))*8;   
+     resultado3 += Integer.parseInt(numCuenta.substring(4,5))*5;   
+     resultado3 += Integer.parseInt(numCuenta.substring(5,6))*10;   
+     resultado3 += Integer.parseInt(numCuenta.substring(6,7))*9;   
+     resultado3 += Integer.parseInt(numCuenta.substring(7,8))*7;   
+     resultado3 += Integer.parseInt(numCuenta.substring(8,9))*3;   
+     resultado3 += Integer.parseInt(numCuenta.substring(9,10))*6;   
     
     resultado4 = resultado3 % 11;
     
