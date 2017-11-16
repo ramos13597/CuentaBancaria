@@ -192,7 +192,7 @@ public class Cuenta {
     }else{
         return false;
     }
-    
+    /*AQUI RELIZAMOS LA OPERACION PARA COMPROBAR EL DC*/
     }
 }    
 
