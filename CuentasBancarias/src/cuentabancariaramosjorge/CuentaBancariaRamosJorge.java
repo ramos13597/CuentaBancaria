@@ -19,8 +19,9 @@ public class CuentaBancariaRamosJorge {
      */
     public static void main(String[] args) {
         boolean bandera = true;
+        /*Introducimos los datos y los guarda*/
         Scanner leer = new Scanner(System.in);
-        System.out.println("Introduce el titualr");
+        System.out.println("Introduce el titualar");
         String titular = leer.nextLine();
         System.out.println("Dime la entidad"); 
         String entidad = leer.nextLine();
@@ -33,7 +34,7 @@ public class CuentaBancariaRamosJorge {
             
     Cuenta c1 = new Cuenta(titular, entidad, oficina, digControl, numCuenta, 0);
     
-    
+
         while(bandera){
             switch(Menu.pintaMenu()){
                         case 1: 
