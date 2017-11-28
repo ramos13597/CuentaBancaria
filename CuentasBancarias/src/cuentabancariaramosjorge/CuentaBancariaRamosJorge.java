@@ -38,7 +38,9 @@ public class CuentaBancariaRamosJorge {
         while(bandera){
             switch(Menu.pintaMenu()){
                         case 1: 
-                            System.out.println("Su CCC es " + c1.getEntidad() + "-" + c1.getOficina() + "-" + c1.getDigControl() + "-" + c1.getNumCuenta());
+                          
+                 
+                            System.out.println("Su CCC " + c1.getEntidad() + "-" + c1.getOficina() + "-" + c1.getDigControl() + "-" + c1.getNumCuenta() + " es: " + c1.comprobarCcc());
 
                             break;
 
